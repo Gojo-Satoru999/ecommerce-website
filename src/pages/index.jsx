@@ -1,12 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
-import ProductListing from '../components/ProductListing';
+import Hero from '../components/Hero';
+import FeaturedProducts from '../components/FeaturedProducts';
+import Categories from '../components/Categories';
+import Footer from '../components/Footer';
 
 function HomePage() {
   return (
     <div>
       <Header />
-      <ProductListing />
+      <Hero />
+      <FeaturedProducts />
+      <Categories />
+      <Footer />
     </div>
   );
 }
